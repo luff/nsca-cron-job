@@ -1,7 +1,7 @@
 #
 # coding: utf-8
 #
-# copyright (c) 2015 luffae@gmail.com
+# copyright (c) 2014 luyi@9186.com
 #
 
 debug = False
@@ -159,8 +159,8 @@ tree = [
   }, {
     'des': 'IIS-CONNECTIONS',
     'cmd': 'hy/check_snmp_iis_conn.sh',
-    'w': 1500,
-    'c': 1500,
+    'w': 1400,
+    'c': 1600,
     'i': 5
   }, {
     'des': 'HTTPERR-CONNECTION-DROPED',
@@ -330,8 +330,8 @@ tree = [
   }, {
     'des': 'IIS-CONNECTIONS',
     'cmd': 'hy/check_snmp_iis_conn.sh',
-    'w': 600,
-    'c': 1200,
+    'w': 1500,
+    'c': 1700,
     'i': 5
   }, {
     'des': 'HTTPERR-CONNECTION-DROPED',
@@ -445,7 +445,7 @@ tree = [
     'des': 'IIS-CONNECTIONS',
     'cmd': 'hy/check_snmp_iis_conn.sh',
     'w': 600,
-    'c': 600,
+    'c': 800,
     'i': 5
   }, {
     'des': 'HTTPERR-CONNECTION-DROPED',
@@ -502,7 +502,7 @@ tree = [
     'des': 'IIS-CONNECTIONS',
     'cmd': 'hy/check_snmp_iis_conn.sh',
     'w': 1500,
-    'c': 1500,
+    'c': 1700,
     'i': 5
   }, {
     'des': 'HTTPERR-CONNECTION-DROPED',
@@ -787,7 +787,7 @@ tree = [
     'des': 'IIS-CONNECTIONS',
     'cmd': 'hy/check_snmp_iis_conn.sh',
     'w': 1400,
-    'c': 1400,
+    'c': 1600,
     'i': 5
   }, {
     'des': 'HTTPERR-CONNECTION-DROPED',
@@ -1071,8 +1071,8 @@ tree = [
   }, {
     'des': 'IIS-CONNECTIONS',
     'cmd': 'hy/check_snmp_iis_conn.sh',
-    'w': 100,
-    'c': 100,
+    'w': 200,
+    'c': 200,
     'i': 5
   }, {
     'des': 'HTTPERR-CONNECTION-DROPED',
@@ -1696,7 +1696,7 @@ tree = [
     'des': 'DISK-USAGE',
     'cmd': 'hy/check_snmp_disk.sh',
     'w': 70,
-    'c': 80,
+    'c': 95,
     'i': 30
   }, {
     'des': 'TIME-DIFFERENCE',
@@ -1896,6 +1896,126 @@ tree = [
 {
   'addr': '10.0.0.130',
   'snmp': 'public',
+  'jobs': [{
+    'des': 'CPU-USAGE',
+    'cmd': 'hy/check_snmp_cpuload.sh',
+    'w': 10,
+    'c': 30,
+    'i': 5
+  }, {
+    'des': 'MEMORY-USAGE',
+    'cmd': 'hy/check_snmp_memory.sh',
+    'w': 80,
+    'c': 95,
+    'i': 5
+  }, {
+    'des': 'DISK-USAGE',
+    'cmd': 'hy/check_snmp_disk.sh',
+    'w': 70,
+    'c': 80,
+    'i': 30
+  }, {
+    'des': 'TIME-DIFFERENCE',
+    'cmd': 'hy/check_snmp_timediff.sh',
+    'w': 40,
+    'c': 60,
+    'i': 60
+  }]
+},
+# ----------------------------------------------
+{
+  'addr': '10.0.0.131',
+  'snmp': 'huiyuan',
+  'jobs': [{
+    'des': 'CPU-USAGE',
+    'cmd': 'hy/check_snmp_cpuload.sh',
+    'w': 10,
+    'c': 30,
+    'i': 5
+  }, {
+    'des': 'MEMORY-USAGE',
+    'cmd': 'hy/check_snmp_memory.sh',
+    'w': 80,
+    'c': 95,
+    'i': 5
+  }, {
+    'des': 'DISK-USAGE',
+    'cmd': 'hy/check_snmp_disk.sh',
+    'w': 70,
+    'c': 80,
+    'i': 30
+  }, {
+    'des': 'TIME-DIFFERENCE',
+    'cmd': 'hy/check_snmp_timediff.sh',
+    'w': 40,
+    'c': 60,
+    'i': 60
+  }]
+},
+# ----------------------------------------------
+{
+  'addr': '10.0.0.132',
+  'snmp': 'huiyuan',
+  'jobs': [{
+    'des': 'CPU-USAGE',
+    'cmd': 'hy/check_snmp_cpuload.sh',
+    'w': 10,
+    'c': 30,
+    'i': 5
+  }, {
+    'des': 'MEMORY-USAGE',
+    'cmd': 'hy/check_snmp_memory.sh',
+    'w': 80,
+    'c': 95,
+    'i': 5
+  }, {
+    'des': 'DISK-USAGE',
+    'cmd': 'hy/check_snmp_disk.sh',
+    'w': 70,
+    'c': 80,
+    'i': 30
+  }, {
+    'des': 'TIME-DIFFERENCE',
+    'cmd': 'hy/check_snmp_timediff.sh',
+    'w': 40,
+    'c': 60,
+    'i': 60
+  }]
+},
+# ----------------------------------------------
+{
+  'addr': '10.0.0.133',
+  'snmp': 'huiyuan',
+  'jobs': [{
+    'des': 'CPU-USAGE',
+    'cmd': 'hy/check_snmp_cpuload.sh',
+    'w': 10,
+    'c': 30,
+    'i': 5
+  }, {
+    'des': 'MEMORY-USAGE',
+    'cmd': 'hy/check_snmp_memory.sh',
+    'w': 80,
+    'c': 95,
+    'i': 5
+  }, {
+    'des': 'DISK-USAGE',
+    'cmd': 'hy/check_snmp_disk.sh',
+    'w': 70,
+    'c': 80,
+    'i': 30
+  }, {
+    'des': 'TIME-DIFFERENCE',
+    'cmd': 'hy/check_snmp_timediff.sh',
+    'w': 40,
+    'c': 60,
+    'i': 60
+  }]
+},
+# ----------------------------------------------
+{
+  'addr': '10.0.0.135',
+  'snmp': 'huiyuan',
   'jobs': [{
     'des': 'CPU-USAGE',
     'cmd': 'hy/check_snmp_cpuload.sh',
