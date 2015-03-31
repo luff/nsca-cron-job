@@ -1,7 +1,7 @@
 #
 # coding: utf-8
 #
-# copyright (c) 2014 luyi@9186.com
+# copyright (c) 2015 luffae@gmail.com
 #
 
 debug = False
@@ -96,7 +96,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -153,7 +153,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -210,7 +210,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -267,7 +267,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -324,7 +324,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -381,7 +381,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -438,7 +438,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -495,7 +495,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -552,7 +552,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -609,7 +609,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -666,7 +666,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -723,7 +723,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -780,7 +780,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -837,7 +837,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -894,7 +894,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -951,7 +951,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1008,7 +1008,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1065,7 +1065,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1122,7 +1122,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1179,7 +1179,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1236,7 +1236,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1293,7 +1293,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1350,7 +1350,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1407,7 +1407,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1464,7 +1464,7 @@ tree = [
   }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }, {
@@ -1519,9 +1519,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1549,9 +1555,15 @@ tree = [
     'c': 98,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1579,9 +1591,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1609,9 +1627,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1639,9 +1663,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1669,9 +1699,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1699,9 +1735,15 @@ tree = [
     'c': 95,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1729,9 +1771,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1759,9 +1807,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1789,9 +1843,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1819,9 +1879,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1849,9 +1915,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1879,9 +1951,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1915,9 +1993,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1945,9 +2029,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -1975,9 +2065,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2005,9 +2101,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2035,9 +2137,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2065,9 +2173,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2095,9 +2209,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2125,9 +2245,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2155,9 +2281,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2185,9 +2317,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
@@ -2215,9 +2353,15 @@ tree = [
     'c': 80,
     'i': 30
   }, {
+    'des': 'TCP-CONNECTIONS',
+    'cmd': 'hy/check_snmp_tcp_conn.sh',
+    'w': 1000,
+    'c': 1000,
+    'i': 5
+  }, {
     'des': 'TIME-DIFFERENCE',
     'cmd': 'hy/check_snmp_timediff.sh',
-    'w': 40,
+    'w': 10,
     'c': 60,
     'i': 60
   }]
