@@ -1,0 +1,3576 @@
+10.0.0.169:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.169
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.169
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.169
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.169
+      I: 60
+      C: huiyuan
+      w: 40
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.169
+      I: 5
+      C: huiyuan
+      w: 200
+      c: 200
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.169
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.169
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.169
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.169
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.151:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.151
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.151
+      I: 5
+      C: public
+      w: 50
+      c: 70
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.151
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.151
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.151
+      I: 5
+      C: public
+      w: 600
+      c: 600
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.151
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.151
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.151
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.151
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.152:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.152
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.152
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.152
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.152
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.152
+      I: 5
+      C: public
+      w: 1400
+      c: 1600
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.152
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.152
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.152
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.152
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.153:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.153
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.153
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.153
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.153
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.153
+      I: 5
+      C: public
+      w: 600
+      c: 600
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.153
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.153
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.153
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.153
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.154:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.154
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.154
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.154
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.154
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.154
+      I: 5
+      C: public
+      w: 1600
+      c: 1600
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.154
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.154
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.154
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.154
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.155:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.155
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.155
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.155
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.155
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.155
+      I: 5
+      C: public
+      w: 1500
+      c: 1700
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.155
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.155
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.155
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.155
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.157:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.157
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.157
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.157
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.157
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.157
+      I: 5
+      C: public
+      w: 400
+      c: 400
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.157
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.157
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.157
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.157
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.158:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.158
+      I: 5
+      C: huiyuan
+      w: 25
+      c: 80
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.158
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.158
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.158
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.158
+      I: 5
+      C: huiyuan
+      w: 600
+      c: 800
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.158
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.158
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.158
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.158
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.159:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.159
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.159
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.159
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.159
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.159
+      I: 5
+      C: public
+      w: 1500
+      c: 1700
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.159
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.159
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.159
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.159
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.161:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.161
+      I: 5
+      C: public
+      w: 10
+      c: 60
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.161
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.161
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.161
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.161
+      I: 5
+      C: public
+      w: 800
+      c: 800
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.161
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.161
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.161
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.161
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.162:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.162
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.162
+      I: 5
+      C: public
+      w: 50
+      c: 70
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.162
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.162
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.162
+      I: 5
+      C: public
+      w: 300
+      c: 300
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.162
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.162
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.162
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.162
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.163:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.163
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.163
+      I: 5
+      C: public
+      w: 50
+      c: 80
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.163
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.163
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.163
+      I: 5
+      C: public
+      w: 200
+      c: 200
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.163
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.163
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.163
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.163
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.165:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.165
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.165
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.165
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.165
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.165
+      I: 5
+      C: huiyuan
+      w: 200
+      c: 200
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.165
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.165
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.165
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.165
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.166:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.166
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.166
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.166
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.166
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.166
+      I: 5
+      C: huiyuan
+      w: 1400
+      c: 1600
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.166
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.166
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.166
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.166
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.168:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.168
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.168
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.168
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.168
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.168
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.168
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.168
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.168
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.168
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.100:
+  APPLOG_OPERATION_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.100
+      I: 30
+      i: applog
+      f: detail
+      k: 操作超时
+      w: 1
+      c: 10
+10.0.0.146:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.146
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.146
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.146
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.146
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.146
+      I: 5
+      C: public
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.146
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.146
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_OPERATION_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.146
+      I: 30
+      i: applog
+      f: detail
+      k: 操作超时
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.146
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.146
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.147:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.147
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.147
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.147
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.147
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.147
+      I: 5
+      C: public
+      w: 200
+      c: 200
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.147
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.147
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_OPERATION_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.147
+      I: 30
+      i: applog
+      f: detail
+      k: 操作超时
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.147
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.147
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.148:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.148
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.148
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.148
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.148
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.148
+      I: 5
+      C: huiyuan
+      w: 200
+      c: 200
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.148
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.148
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_OPERATION_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.148
+      I: 30
+      i: applog
+      f: detail
+      k: 操作超时
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.148
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.148
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.149:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.149
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.149
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.149
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.149
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.149
+      I: 5
+      C: huiyuan
+      w: 200
+      c: 200
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.149
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.149
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_OPERATION_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.149
+      I: 30
+      i: applog
+      f: detail
+      k: 操作超时
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.149
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.149
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+172.16.0.41:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 172.16.0.41
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 172.16.0.41
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 172.16.0.41
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 172.16.0.41
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 172.16.0.41
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 172.16.0.41
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 172.16.0.41
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 172.16.0.41
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 172.16.0.41
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.211:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.211
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.211
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 75
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.211
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.211
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.211
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.211
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.211
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.211
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.211
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.212:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.212
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.212
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 70
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.212
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.212
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.212
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.212
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.212
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.212
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.212
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.213:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.213
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.213
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.213
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.213
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.213
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.213
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.213
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.213
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.213
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.214:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.214
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.214
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.214
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.214
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.214
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.214
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.214
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.214
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.214
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.241:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.241
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.241
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.241
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.241
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.241
+      I: 5
+      C: public
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.241
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.241
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.241
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.241
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.242:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.242
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.242
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.242
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.242
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.242
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.242
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.242
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.242
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.242
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.243:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.243
+      I: 5
+      C: public
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.243
+      I: 5
+      C: public
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.243
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.243
+      I: 60
+      C: public
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.243
+      I: 5
+      C: public
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.243
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.243
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.243
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.243
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.245:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.245
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 50
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.245
+      I: 5
+      C: huiyuan
+      w: 50
+      c: 60
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.245
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.245
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+  IIS_CONNECTIONS:
+    cmd: check_snmp_iis_conn.sh
+    params:
+      H: 10.0.0.245
+      I: 5
+      C: huiyuan
+      w: 100
+      c: 100
+  HTTPERR_CONNECTION_DROPED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.245
+      I: 30
+      i: httperr
+      f: reason
+      k: Connection_Dropped
+      w: 1
+      c: 10
+  APPLOG_DB_TIMEOUT:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.245
+      I: 30
+      i: applog
+      f: detail
+      k: 超时时间已到
+      w: 1
+      c: 10
+  APPLOG_CONNECT_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.245
+      I: 30
+      i: applog
+      f: detail
+      k: 无法连接
+      w: 1
+      c: 10
+  APPLOG_RESOLVE_FAILED:
+    cmd: check_log_keyword.sh
+    params:
+      H: 10.0.0.245
+      I: 30
+      i: applog
+      f: detail
+      k: 无法解析
+      w: 1
+      c: 10
+10.0.0.22:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.22
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.22
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.22
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.22
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.22
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.23:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.23
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.23
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.23
+      I: 30
+      C: public
+      w: 80
+      c: 98
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.23
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.23
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.24:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.24
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.24
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.24
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.24
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.24
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.25:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.25
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.25
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.25
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.25
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.25
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.26:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.26
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.26
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.26
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.26
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.26
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.27:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.27
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.27
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.27
+      I: 30
+      C: public
+      w: 70
+      c: 90
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.27
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.27
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.112:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.112
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.112
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.112
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 95
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.112
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.112
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.113:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.113
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.113
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.113
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 90
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.113
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.113
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.118:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.118
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.118
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.118
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.118
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.118
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.120: {}
+10.0.0.121:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.121
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.121
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.121
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.121
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.121
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.122:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.122
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.122
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.122
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.122
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.122
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.123:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.123
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.123
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.123
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.123
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.123
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.130:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.130
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.130
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.130
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.130
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.130
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.131:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.131
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.131
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.131
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.131
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.131
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.132:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.132
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.132
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.132
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.132
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.132
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.133:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.133
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.133
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.133
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.133
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.133
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.141:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.141
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.141
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.141
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.141
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.141
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.142:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.142
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.142
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.142
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.142
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.142
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.144:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.144
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.144
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.144
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.144
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.144
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.160:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.160
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.160
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.160
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.160
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.160
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.170:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.170
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.170
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.170
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.170
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.170
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.180:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.180
+      I: 5
+      C: public
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.180
+      I: 5
+      C: public
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.180
+      I: 30
+      C: public
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.180
+      I: 5
+      C: public
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.180
+      I: 60
+      C: public
+      w: 10
+      c: 60
+10.0.0.32:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.32
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.32
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.32
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 98
+10.0.0.101:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.101
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.101
+      I: 5
+      C: huiyuan
+      w: 90
+      c: 90
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.101
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.101
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.101
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.102:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.102
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.102
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 80
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.102
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.102
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.102
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.125:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.125
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.125
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 95
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.125
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.125
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.125
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.126:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.126
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.126
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 80
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.126
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.126
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.126
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.135:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.135
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.135
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 80
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.135
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.135
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.135
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.136:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.136
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.136
+      I: 5
+      C: huiyuan
+      w: 85
+      c: 85
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.136
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.136
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.136
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.145:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.145
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.145
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 80
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.145
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.145
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.145
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.75:
+  CPU_USAGE:
+    cmd: check_snmp_cpuload.sh
+    params:
+      H: 10.0.0.75
+      I: 5
+      C: huiyuan
+      w: 10
+      c: 30
+  MEMORY_USAGE:
+    cmd: check_snmp_memory.sh
+    params:
+      H: 10.0.0.75
+      I: 5
+      C: huiyuan
+      w: 80
+      c: 80
+  DISK_USAGE:
+    cmd: check_snmp_disk.sh
+    params:
+      H: 10.0.0.75
+      I: 30
+      C: huiyuan
+      w: 70
+      c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.75
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
+  TIME_DIFFERENCE:
+    cmd: check_snmp_timediff.sh
+    params:
+      H: 10.0.0.75
+      I: 60
+      C: huiyuan
+      w: 10
+      c: 60
+10.0.0.199: {}
