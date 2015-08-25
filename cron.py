@@ -96,3 +96,4 @@ send = subprocess.Popen(
        stdout=subprocess.PIPE)
 
 out, err = send.communicate(input=result_list)
+
