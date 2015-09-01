@@ -53,7 +53,7 @@ cnt=$(curl -s -XGET 'http://10.0.0.195:9200/*_hy_'$i'/_count' -d \
 val=0
 str="日志分析[$i]字段[$f]关键字[$k]"
 
-if [[ $? -eq 0 ]]; then
+if [[ -n $cnt ]]; then
   [[ $cnt -lt $w ]] || val=1
   [[ $cnt -lt $c ]] || val=2
   str+="于最近[$I]秒内出现[$cnt]次"
