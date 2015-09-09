@@ -23,6 +23,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.169
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -104,6 +112,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.151
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -185,6 +201,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.152
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -266,6 +290,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.153
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -347,6 +379,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.154
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -428,6 +468,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.155
+      I: 5
+      C: public
+      w: 1500
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -509,6 +557,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.157
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -590,6 +646,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.158
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -671,6 +735,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.159
+      I: 5
+      C: public
+      w: 1500
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -752,6 +824,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.161
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -833,6 +913,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.162
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -914,6 +1002,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.163
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -995,6 +1091,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.165
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1076,6 +1180,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.166
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1157,6 +1269,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.168
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1214,6 +1334,14 @@
       w: 1
       c: 10
 10.0.0.100:
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.100
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   APPLOG_OPERATION_TIMEOUT:
     cmd: check_log_keyword.sh
     params:
@@ -1249,6 +1377,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.146
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1340,6 +1476,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.147
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1431,6 +1575,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.148
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1522,6 +1674,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.149
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1613,6 +1773,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 172.16.0.41
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1685,7 +1853,7 @@
       I: 5
       C: huiyuan
       w: 50
-      c: 75
+      c: 90
   DISK_USAGE:
     cmd: check_snmp_disk.sh
     params:
@@ -1694,6 +1862,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.211
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1766,7 +1942,7 @@
       I: 5
       C: huiyuan
       w: 50
-      c: 70
+      c: 90
   DISK_USAGE:
     cmd: check_snmp_disk.sh
     params:
@@ -1775,6 +1951,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.212
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1847,7 +2031,7 @@
       I: 5
       C: huiyuan
       w: 50
-      c: 60
+      c: 90
   DISK_USAGE:
     cmd: check_snmp_disk.sh
     params:
@@ -1856,6 +2040,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.213
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -1928,7 +2120,7 @@
       I: 5
       C: huiyuan
       w: 50
-      c: 60
+      c: 90
   DISK_USAGE:
     cmd: check_snmp_disk.sh
     params:
@@ -1937,6 +2129,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.214
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -2018,6 +2218,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.241
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -2099,6 +2307,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.242
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -2180,6 +2396,14 @@
       C: public
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.243
+      I: 5
+      C: public
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -2261,6 +2485,14 @@
       C: huiyuan
       w: 70
       c: 80
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.245
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1500
   TIME_DIFFERENCE:
     cmd: check_snmp_timediff.sh
     params:
@@ -3245,6 +3477,14 @@
       C: huiyuan
       w: 70
       c: 98
+  TCP_CONNECTIONS:
+    cmd: check_snmp_tcp_conn.sh
+    params:
+      H: 10.0.0.32
+      I: 5
+      C: huiyuan
+      w: 1000
+      c: 1000
 10.0.0.101:
   CPU_USAGE:
     cmd: check_snmp_cpuload.sh
