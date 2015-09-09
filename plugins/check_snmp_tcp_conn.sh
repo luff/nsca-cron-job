@@ -23,17 +23,23 @@ t=${t:-2}
 w=${w:-300}
 c=${c:-300}
 
-walk="/usr/bin/snmpwalk -v2c -c$C -OUvq -t$t -r3"
+www="/var/www/html/tcp_conn"
+
+walk="/usr/bin/snmpwalk -v2c -c$C -t$t -r3"
 
 val=0
 str="服务器tcp连接数"
 
-conn=$($walk $H tcpCurrEstab)
+$walk $H tcpConnState \
+  | awk -F'[. ]' \
+   '{ printf("%16s :%-6s%16s :%-6s %16s\n", $2"."$3"."$4"."$5, $6, $7"."$8"."$9"."$10, $11, $14) }' \
+  > $www/$H.txt
 
-if [[ $? -ne 0 ]]; then
+if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
   str+="检测失败"
   val=2
 else
+  conn=($(wc -l $www/$H.txt)); conn=${conn[0]}
   str+="[$conn]个"
 
   [[ $conn -lt $w ]] || val=1
