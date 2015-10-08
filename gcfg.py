@@ -12,17 +12,16 @@ sys.dont_write_bytecode = True
 
 import myyaml
 
-scripts_base = '/root/scripts/nsca_cron_new'
+script_dir = sys.path[0]
 
-host_definition = 'windows-server'
 service_definition = 'generic-passive-service'
 
 buffer = ''
 
-with open(scripts_base + '/config.yaml') as cfg:
+with open(script_dir + '/config.yaml') as cfg:
   config = myyaml.ordered_load(cfg)
 
-for h in config.keys():
+for h, hv in config.iteritems():
   buffer += (
     "\n"
     "{0:/<64}\n".format('# ') +
@@ -31,18 +30,18 @@ for h in config.keys():
   )
   buffer += (
     "define host {\n" +
-    "    %-24s%s\n" % ('use', host_definition) +
-    "    %-24s%s\n" % ('host_name', h) +
+    "    %-24s%s\n" % ('use', hv['template']) +
+    "    %-24s%s\n" % ('host_name', hv['alias']) +
     "    %-24s%s\n" % ('alias', h) +
-    "    %-24s%s\n" % ('address', h) +
+    "    %-24s%s\n" % ('address', hv['address']) +
     "}\n\n"
   )
-  for j in config[h].keys():
-    fresh_second = config[h][j]['params']['I'] * 60 + 300
+  for j, jv in hv['jobs'].iteritems():
+    fresh_second = jv['params']['I'] * 60 + 300
     buffer += (
       "define service {\n"
       "    %-24s%s\n" % ('use', service_definition) +
-      "    %-24s%s\n" % ('host_name', h) +
+      "    %-24s%s\n" % ('host_name', hv['alias']) +
       "    %-24s%s\n" % ('service_description', j) +
       "    %-24s%d\n" % ('freshness_threshold', fresh_second) +
       "}\n\n"
