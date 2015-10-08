@@ -17,10 +17,11 @@ import subprocess
 debug = False
 
 max_parallel_job = 64
-scripts_base = '/root/scripts/nsca_cron_new'
-plugins_path = '/root/scripts/nsca_cron_new/plugins'
 
-nsca_server = '10.0.0.109'
+script_dir = sys.path[0]
+plugin_dir = script_dir +'/plugins'
+
+nsca_server = '192.168.181.100'
 nsca_exec = [ '/usr/sbin/send_nsca', nsca_server, '-to', '60' ]
 
 
@@ -33,12 +34,12 @@ def parallel_execute(jobs):
     while jobs and len(processes) < max_parallel_job:
       job = jobs.pop()
       if debug:
-        print subprocess.list2cmdline(job['cmd'])
+        print subprocess.list2cmdline(job['exec'])
 
       processes.append({
         'host': job['host'],
         'desc': job['desc'],
-        'proc': subprocess.Popen(job['cmd'], stdout=subprocess.PIPE)
+        'proc': subprocess.Popen(job['exec'], stdout=subprocess.PIPE)
       })
 
     for p in processes:
@@ -67,21 +68,24 @@ epoch_minute = int(round(time.time() / 60))
 
 job_list = []
 
-with open(scripts_base + '/config.yaml') as cfg:
+with open(script_dir + '/config.yaml') as cfg:
   config = myyaml.ordered_load(cfg)
 
-for h in config.keys():
-  for j in config[h].keys():
-    job = config[h][j]
-    if not debug and (epoch_minute % job['params']['I'] != 0):
+for h, hv in config.iteritems():
+  for j, jv in hv['jobs'].iteritems():
+    if not debug and (epoch_minute % jv['params']['I'] != 0):
       continue
-    cmd = [ plugins_path + '/' + job['cmd'] ]
-    for p in job['params'].keys():
-      cmd.extend([ '-' + p, str(job['params'][p]) ])
+
+    cmd = [ plugin_dir + '/' + jv['cmd'], '-H', hv['address'] ]
+    if jv['snmp']:
+      cmd.extend([ '-C', str(hv['community']) ])
+    for p, pv in jv['params'].iteritems():
+      cmd.extend([ '-' + p, str(pv) ])
+
     job_list.append({
-      'host': h,
+      'host': hv['alias'],
       'desc': j,
-      'cmd': cmd
+      'exec': cmd
     })
 
 result_list = parallel_execute(job_list)
