@@ -33,7 +33,7 @@ std_time=$(date +%s)
 dt=$($walk $H hrSystemDate.0)
 if [[ $? -ne 0 ]]; then
   str+="检测失败"
-  val=2
+  val=3
 
 else
   dt=$(date -d"${dt//,/ }" +%s)
