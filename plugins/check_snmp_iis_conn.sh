@@ -32,9 +32,10 @@ conn=$($walk $H SNMPv2-SMI::enterprises.311.1.7.3.1.13.0)
 
 if [[ $? -ne 0 ]]; then
   str+="检测失败"
-  val=2
+  val=3
 else
   str+="[$conn]个"
+  str+=" | iis_connection=$conn;$w;$c;"
 
   [[ $conn -lt $w ]] || val=1
   [[ $conn -lt $c ]] || val=2
