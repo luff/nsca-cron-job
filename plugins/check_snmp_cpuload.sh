@@ -32,7 +32,7 @@ load_list=($($walk $H hrProcessorLoad))
 
 if [[ $? -ne 0 ]]; then
   str+="检测失败"
-  val=2
+  val=3
 else
   for l in ${load_list[@]}; do
     total=$((total + l))
@@ -41,6 +41,7 @@ else
 
   p=$((total / count))
   str+="[$p%]"
+  str+=" | cpu_percentage=$p%;$w;$c;"
 
   [[ $p -lt $w ]] || val=1
   [[ $p -lt $c ]] || val=2
