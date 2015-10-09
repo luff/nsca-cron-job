@@ -37,10 +37,11 @@ $walk $H tcpConnState \
 
 if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
   str+="检测失败"
-  val=2
+  val=3
 else
   conn=($(wc -l $www/$H.txt)); conn=${conn[0]}
   str+="[$conn]个"
+  str+=" | tcp_connection=$conn;$w;$c;"
 
   [[ $conn -lt $w ]] || val=1
   [[ $conn -lt $c ]] || val=2
